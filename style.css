@@ -1,0 +1,48 @@
+div {
+    color: black;
+    background-color: blueviolet;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
+    border: 3px ridge #cccccc;
+    align-content: center;
+    margin: auto;
+}
+
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.ramsey {
+    height: auto;
+    width: 300px;
+    position: relative;
+}
+
+.recipes {
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+    list-style-position: inside;
+    padding-inline-start: 20px;
+}
+
+.recipes.lasagna {
+    color: blue;
+    /* list-style-position: inside; */
+}
+
+.recipes.bbqchicken {
+    color: rgb(255, 196, 202);
+    /* list-style-position: inside; */
+}
+
+.recipes.brownies {
+    color: brown;
+    /* list-style-position: inside; */
+}
